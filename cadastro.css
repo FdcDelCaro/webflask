@@ -1,0 +1,90 @@
+* {
+    box-sizing: border-box;
+    margin: 10;
+    padding: 2;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    background: rgb(0, 0, 0);
+    background: linear-gradient(90deg, rgba(121, 16, 115, 0.418) 0%, rgb(69, 123, 139) 50%, rgba(0, 0, 0, 0.73) 100%);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+
+}
+
+.conteudo {
+    background-color: #fafafa;
+    border-radius: 10px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 10);
+    width: 400px;
+    max-width: 100%;
+    overflow: hidden;
+}
+
+.cx1 {
+    background-color: #004458;
+    padding: 20px;
+}
+
+h1 {
+    color: #fafafa;
+}
+
+.frm1 {
+    padding: 20px;
+}
+
+.cadastros {
+    margin-bottom: 10px;
+    padding-bottom: 20px;
+    position: relative;
+}
+
+.cadastros label {
+    display: inline-block;
+    margin-bottom: 5px;
+}
+
+.cadastros input {
+    border: 1px solid black;
+    display: block;
+    border-radius: 10px;
+    font-size: 14px;
+    width: 100%;
+    padding: 10px;
+}
+
+.textarea {
+    border: 1px solid black;
+}
+
+
+
+
+.frm1 button {
+    background-color: #004458;
+    border: 2px solid #000000;
+    color: #fff;
+    font-size: 14px;
+    width: 100%;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 2px;
+}
+
+.cadastros .correcao {
+    background-color: #004458;
+    border: 2px solid #000000;
+    color: #fff;
+    font-size: 14px;
+    width: 100%;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 2px;
+}
